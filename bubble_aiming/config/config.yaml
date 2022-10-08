@@ -1,0 +1,20 @@
+aiming_node:
+  ros__parameters:
+    magnification: 5
+    moving_alter_thres: 5
+    gyro_thres: 5
+    tolerance_thres: 15
+    armour_alter_thres: 8
+    height_differ_min_thres: 0
+    height_differ_max_thres: 50
+    width_differ_min_thres: 10
+    width_alter_min_thres: 100
+    width_differ_max_thres: 600
+    gyro_iou_thres: 0.5
+    ahead_angle: 25.0
+    ahead_time: 0.45
+
+    x_offset: 0.0
+    y_offset: -0.1
+    z_offset: 0.0
+    camera_intrinsic_config_path: '/home/nv/bubble/src/bubble_contrib/bubble_aiming/config/camera_intrinsic_mtx.config'
